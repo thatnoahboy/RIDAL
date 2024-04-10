@@ -1,0 +1,78 @@
+@import url(utility.css);
+
+body {
+  background-image: url(./images/WhatsApp\ Image\ 2024-03-18\ at\ 10.37.48\ PM.jpeg);
+
+  background-size: cover;
+}
+
+.container {
+  background-color: rgba(252, 250, 247, 0.9);
+  padding: 20px;
+  padding-left: 40px;
+  border-radius: 0.5cm;
+  margin-top: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  color: rgb(243, 164, 17);
+  font-weight: 900;
+}
+
+span {
+  font-weight: 700;
+  color: #222222;
+  font-size: medium;
+}
+
+input {
+  width: 170px;
+  height: 30px;
+  border-radius: 28px;
+  font-size: 16px;
+  font-family: inherit;
+  border: 0;
+  padding: 0 24px;
+  color: #222222;
+  background: #ebebeb;
+  margin-top: 5px;
+  font-size: small;
+}
+
+button {
+  height: 40px;
+  width: 150px;
+  background-color: #ffd700;
+  border-radius: 0.3cm;
+  margin-top: 5px;
+  border-color: #ffd700;
+  color: white;
+}
+
+.form-termsAndCondition p {
+  font-size: x-small;
+}
+
+.form-orSignUpWithGoogle {
+  font-size: small;
+  font-weight: bold;
+  
+}
+
+.alreadyHaveAnAccount p {
+  font-size: small;
+}
+
+@media screen and (min-width: 200px) and (max-width: 679px) {
+  .container {
+    background-color: rgba(252, 250, 247, 0.9);
+    padding: 20px;
+    padding-left: 40px;
+    width: 250px;
+    border-radius: 0.5cm;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+}
