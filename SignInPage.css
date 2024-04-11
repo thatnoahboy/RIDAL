@@ -1,17 +1,18 @@
 @import url(utility.css);
 
-body {
+Body {
   background-image: url(./images/WhatsApp\ Image\ 2024-03-18\ at\ 10.37.48\ PM.jpeg);
 
   background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
   background-color: rgba(252, 250, 247, 0.9);
   padding: 20px;
-  padding-left: 40px;
+  padding-left: 25px;
   border-radius: 0.5cm;
-  margin-top: 100px;
+  margin-top: 250px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -21,9 +22,10 @@ h2 {
 }
 
 span {
-  font-weight: 700;
+  font-weight: 800;
   color: #222222;
-  font-size: medium;
+  font-size: large;
+  margin-top: 5px;
 }
 
 input {
@@ -50,38 +52,23 @@ button {
   color: white;
 }
 
-.form-termsAndCondition p {
-  font-size: x-small;
-}
-
-.form-orSignUpWithGoogle p {
-  font-size: small;
-  font-weight: bold;
-  /* border: solid; */
-  margin-top: 0px;
-}
-
 a {
   color: #ffd700;
-}
-
-.fa-brands {
-  margin-top: 5px;
-}
-
-.alreadyHaveAnAccount p {
   font-size: small;
-  margin-top: 5px;
+}
+
+p {
+  margin-top: 0px;
 }
 
 @media screen and (min-width: 200px) and (max-width: 679px) {
   .container {
     background-color: rgba(252, 250, 247, 0.9);
     padding: 20px;
-    padding-left: 40px;
+    padding-left: 25px;
     width: 250px;
     border-radius: 0.5cm;
-    margin-top: 5px;
+    margin-top: 155px;
     font-family: Arial, Helvetica, sans-serif;
   }
 
