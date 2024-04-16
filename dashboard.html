@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="geolocation" content="on">
+    <title>Map Page</title>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css" rel="stylesheet">
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+  <section class="profile">
+    <div class="profile-pic center">
+      <i class="fa-solid fa-user"></i>
+    </div>
+    <div class="acct-deets">
+      <span class="firstName-container"></span>
+      <a href="#">My account</a>
+    </div>
+  </section>
+  <nav id="slide-menu">
+    <ul>
+      <li>Home</li>
+      <li>Dashboard</li>
+      <li>Profile</li>
+      <li>Settings</li>
+      <li>Logout</li>
+    </ul>
+  </nav>
+  <!-- Content -->
+  <div id="content">
+    
+    <div id="map" class="map"><div class="menu-trigger"></div></div>
+    <div class="destination-input">
+      <input type="text" id="current-location" placeholder="Current Location"> <br>
+      <input type="text" id="destination-input" placeholder="Enter destination">
+      <!-- Other input elements or buttons can be added here -->
+    </div>
+
+    <!-- Location history section -->
+    <section class="location-history">
+      <!-- Content of location history here -->
+      <div class="history-sec"></div>
+    </section>
+
+
+  
+  </div>
+
+  
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
+  <script src="https://kit.fontawesome.com/f25bb9d79a.js" crossorigin="anonymous"></script>
+  <script src="dashboard.js"></script>
+</body>
+</html>
