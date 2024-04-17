@@ -43,8 +43,6 @@ nav#slide-menu {
 }
 
 
-
-
 nav#slide-menu > ul {
   display: block;
   margin: 40px;
@@ -186,8 +184,14 @@ body.menu-active div#content .menu-trigger {
 }
 
 .location-history {
-  margin-top: auto; /* Pushes the location history section to the bottom */
-  /* Additional styling for location history section */
+  position: fixed; /* Fixed positioning relative to the viewport */
+  bottom: 0;      /* Aligns the section to the bottom of the viewport */
+  left: 10;        /* Aligns the section to the left of the viewport */
+  width: 100%;    /* Ensures the section spans the full width of the screen */
+  background: #FFF; /* Set a background color so the text is readable over the map */
+  z-index: 10;    /* Ensures the section stays above the map */
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.3); /* Optional: adds a shadow for better separation */
+  /* Add padding, border, or other styles as needed */
 }
 
 #locate-btn {
@@ -199,7 +203,28 @@ body.menu-active div#content .menu-trigger {
   
 }
 
-.history-sec {
+/* history-section */
 
+
+
+.section-heading h2>p {
+  font-weight: bolder;
+  color: #ffd700;
 }
 
+.section-heading h2>p>span {
+  font-weight: 400;
+  color: black;
+  font-size:x-large;
+}
+
+.section-heading {
+  margin: 10px;
+  margin-left: 20px;
+}
+
+.history-container {
+  height: 250px;
+  width: 100%;
+  border: 2px solid yellow;
+}
