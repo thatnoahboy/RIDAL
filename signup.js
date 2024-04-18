@@ -116,3 +116,14 @@ function signIn() {
       showModal('Invalid phone or password.');
   }
 }
+
+function sendOTP() {
+  const otp = generateOTP();
+  document.getElementById('otp-display').textContent = "Your OTP is: " + otp;
+  document.getElementById('otp-input').style.display = 'block';
+  document.getElementById('verify-otp-btn').style.display = 'block';
+}
+
+function generateOTP() {
+  return Math.floor(100000 + Math.random() * 900000); // Generate 6-digit OTP
+}
