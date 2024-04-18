@@ -489,7 +489,7 @@ received-chats-img {
     color: #fff;
     border-radius: 10px;
     font-size: 14px;
-    color: #fff;
+    /* color: #fff; */
     padding: 5px 10px 5px 12px;
     width: 100%;
     padding: 1rem;
@@ -594,7 +594,8 @@ received-chats-img {
   
   .user-bubble {
     background-color: #ffd700;
-    color: #fff;
+    /* color: #fff; */
+    color: #000;
     align-self: flex-end;
     float: right;
     border-bottom-left-radius: 20px;
