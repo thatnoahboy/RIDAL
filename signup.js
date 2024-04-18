@@ -103,3 +103,16 @@ function signUp() {
     showModal('Please check the console for OTP and enter it below to complete your registration.');
     sendOTP();
 }
+
+function signIn() {
+  const phone = document.getElementById('login-phone').value;
+  const password = document.getElementById('login-password').value;
+  const user = JSON.parse(localStorage.getItem(phone));
+
+  if (user && user.password === password) {
+      // alert('Sign In Successful. Welcome ' + user.firstName + '!');
+      window.location.href = 'dashboard.html';  // Redirect to the dashboard page
+  } else {
+      showModal('Invalid phone or password.');
+  }
+}

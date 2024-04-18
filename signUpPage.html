@@ -22,12 +22,14 @@
         <div class="form-group-contact">
           <input type="email" name="email" id="email" placeholder="Email: noreply@ridal.com" required>
           <input type="tel" name="phone" id="phone" placeholder="08123456789" required>
-          <input type="text" id="otp-input" placeholder="Enter OTP" required style="display: none;">
-          <button type="button" onclick="verifyOTP()" style="display: none;" id="verify-otp-btn">Verify OTP</button>
         </div>
         <div class="form-goup-password">
           <input type="password" minlength="6" name="password" id="password" placeholder="Password" required>
           <input type="password" name="verify-password" id="verify-password" minlength="6" placeholder="Verify Password" required>
+        </div>
+        <div class="form-group-OTP center">
+          <input type="text" id="otp-input" placeholder="Enter OTP"  required style="display: none;">
+          <button type="button" onclick="verifyOTP()" style="display: none;" class="otp-btn" id="verify-otp-btn">Verify OTP</button>
         </div>
         <div class="form-signup-btn center">
           <button type="button" onclick="signUp()">Sign Up</button>
@@ -47,9 +49,9 @@
     </div>
   </div>
   <!-- Modal for displaying messages -->
-  <div id="modal" class="modal">
+  <div id="modal" class="modal center">
     <div class="modal-content">
-        <span class="close-button">×</span>
+        <span class="close-button"><b>x</b></span>
         <p id="modal-message"></p>
     </div>
   </div>
