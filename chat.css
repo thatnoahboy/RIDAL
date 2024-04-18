@@ -580,7 +580,7 @@ received-chats-img {
   }
   
   button:hover {
-    background-color: #ffd700;
+    background-color: black;
   }
   
   .chat-bubble {
@@ -616,7 +616,7 @@ received-chats-img {
   
   /* Add this CSS to style the header and menu */
   .header {
-    background-color: #ffd700;
+    background-color: #ab9c48;
     color: #fff;
     padding: 10px;
     display: flex;
@@ -643,7 +643,7 @@ received-chats-img {
   }
   
   .menu a:hover {
-    background-color: #ffd700;
+    background-color: black;
   }
   
   
