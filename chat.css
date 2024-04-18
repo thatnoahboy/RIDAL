@@ -272,7 +272,10 @@ received-chats-img {
     color: #fff;
   }
   
-  .menu a:hover {
+  .Verified:hover {
+    background-color: #0056b3;
+  }
+  .name3 a:hover {
     background-color: #0056b3;
   }
 
