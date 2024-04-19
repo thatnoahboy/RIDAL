@@ -68,9 +68,13 @@ function generateOTP() {
 function sendOTP() {
     globalOTP = generateOTP();
     // In a real application, you would send this OTP via SMS or email
-    console.log("OTP is: " + globalOTP); // For demo purposes, we log it to the console
+    const otp = globalOTP;
+    document.getElementById('otp-display').textContent = "Your OTP is: " + otp;
     document.getElementById('otp-input').style.display = 'block';
     document.getElementById('verify-otp-btn').style.display = 'block';
+    // console.log("OTP is: " + globalOTP); // For demo purposes, we log it to the console
+    // document.getElementById('otp-input').style.display = 'block';
+    // document.getElementById('verify-otp-btn').style.display = 'block';
 }
 
 function verifyOTP() {

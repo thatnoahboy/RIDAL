@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Get Started</title>
-  <link rel="stylesheet" href="./stylegetstarted.css">
+  <link rel="stylesheet" href="./stylegetstarted3.css">
 </head>
 <body class="center">
   <div class="container center">
@@ -12,15 +12,24 @@
     <P class="wel-ridal-body center">ENJOY COMFORT WITH SUBSIDIZED DAILY TRANSPORTAION</P>
     <p class="wel-ridal-small-txt center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, sequi.</p>
     <div class="wel-ridal-nav">
+      <div class="nav-sec
+      "></div>
+      <div class="nav-sec
+      "></div>
       <div class="nav-sec first
       "></div>
-      <div class="nav-sec
-      "></div>
-      <div class="nav-sec
-      "></div>
     </div>
-    <a href="./getStartedPage2.html" class="nav-dir-right center">></a>
+    <a onclick="redirectToPage()" class="nav-dir-right center"><span>Select User</span></a><a onclick="redirectToPrev()" class="nav-dir-left center"><</a>
   </div>
+
+  <script>
+    function redirectToPage() {
+    window.location.href = "select-user.html"
+    }
+
+    function redirectToPrev() {
+    window.location.href = "getStartedPage2.html"
+    }
+  </script>
 </body>
 </html>
-<!-- this should be replaced with the new get sarted page  -->

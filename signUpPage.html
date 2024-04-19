@@ -33,7 +33,7 @@
           <button type="button" onclick="verifyOTP()" style="display: none;" class="otp-btn" id="verify-otp-btn">Verify OTP</button>
         </div>
         <div class="form-signup-btn center">
-          <button type="button" onclick="signUp()">Sign Up</button>
+          <button type="submit" onclick="signUp()">Sign Up</button>
         </div>
       </form>
       <div class="form-termsAndCondition">
@@ -58,5 +58,17 @@
   </div>
 
   <script src="signup.js"></script>
+  <!-- <script>
+    document.querySelector('form').addEventListener('submit', function(event) {
+     var requiredInputs = document.querySelectorAll('input[required]');
+     for (var i = 0; i < requiredInputs.length; i++) {
+     if (requiredInputs[i].value === '') {
+      event.preventDefault(); // Prevent form submission
+      // You can also display an error message or highlight the empty fields
+      break;
+       }
+     }
+    });
+  </script> -->
 </body>
 </html>
