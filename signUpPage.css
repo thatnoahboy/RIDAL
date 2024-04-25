@@ -4,6 +4,7 @@ body {
   background-image: url(./images/WhatsApp\ Image\ 2024-03-18\ at\ 10.37.48\ PM.jpeg);
 
   background-size: cover;
+  
 }
 
 /* .container {
@@ -17,7 +18,7 @@ body {
 .container {
   background-color: rgba(252, 250, 247, 1);
   padding: 15px;
-  padding-left: 25px;
+  padding-left: 30px;
   width: 332px;
   height: 613px;
   border-radius: 64px;
