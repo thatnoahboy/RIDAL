@@ -16,14 +16,14 @@ body {
 } */
 .container {
   background-color: rgba(252, 250, 247, 1);
-  padding: 20px;
-  padding-left: 35px;
+  padding: 15px;
+  padding-left: 25px;
   width: 332px;
   height: 613px;
   border-radius: 64px;
   /* margin-top: 5px; */
   font-family: Arial, Helvetica, sans-serif;
-  box-shadow: 0px 8px 8px 1px;
+  box-shadow: 0px 3px 5px 0px;
 }
 
 h2 {
@@ -135,9 +135,9 @@ a {
   cursor: pointer;
 }
 
-/* @media screen and (min-width: 200px) and (max-width: 679px) {
+@media screen and (min-width: 200px) and (max-width: 679px) {
   .container {
-    background-color: rgba(252, 250, 247, 1);
+    background-color: rgb(252, 250, 247);
     width: 332px;
     height: 613px;
     border-radius: 64px;
@@ -191,4 +191,4 @@ a {
     margin-top: 7px;
   }
 
-} */
+}
