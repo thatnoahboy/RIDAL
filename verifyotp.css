@@ -11,7 +11,7 @@ Body {
   background-color: rgb(252, 250, 247);
   padding: 30px;
   padding-left: 25px;
-  border-radius: 0.5cm;
+  border-radius: 54px;
   margin-top: 250px;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -29,17 +29,18 @@ span {
 }
 
 input {
-  width: 200px;
-  height: 30px;
-  border-radius: 28px;
-  font-size: 16px;
-  font-family: inherit;
-  border: 0;
-  padding: 0 24px;
-  color: #222222;
-  background: #ebebeb;
-  margin-top: 5px;
-  font-size: small;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  border: none;
+  border-bottom: 1.5px solid #d2d2d2;
+  margin: 0 10px;
+  box-shadow: 0px 1px 3px 0px;
+}
+
+input:focus {
+  border-bottom: 1.5px solid royalblue;
+  outline: none;
 }
 
 button {
@@ -101,8 +102,8 @@ p {
     background-color: rgb(252, 250, 247);
     padding: 20px;
     padding-left: 25px;
-    width: 250px;
-    border-radius: 0.5cm;
+    width: 300px;
+    border-radius: 54px;
     margin-top: 190px;
     font-family: Arial, Helvetica, sans-serif;
   }

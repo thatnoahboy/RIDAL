@@ -17,9 +17,11 @@
       <div class="form-container center">
         <form action="">
           <div class="form-group-OTP center">
-            <input type="text" id="otp-input" placeholder="Enter OTP"  required><!--Add this line in your HTML where you want to display the OTP-->
+            <div class="inputs"> <input id="input1" type="text" maxlength="1"> <input id="input2" type="text" maxlength="1">
+              <input id="input3" type="text" maxlength="1"> <input id="input4" type="text" maxlength="1"> </div> 
+            <!-- <input type="text" id="otp-input" placeholder="Enter OTP"  required>Add this line in your HTML where you want to display the OTP -->
             <p id="otp-display"></p>
-            <button type="button" onclick="verifyOTP()"  class="otp-btn" id="verify-otp-btn">Verify</button>
+            <button type="button" class="otp-btn" id="verify-otp-btn">Verify</button>
           </div>
         </form>
       </div>
