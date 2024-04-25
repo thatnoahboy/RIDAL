@@ -1,18 +1,21 @@
 body, html {
     height: 100%;
+    margin: 0;
 }
 * {
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 .bg-image-splashpage {
     background-image: url("bg-img.jpg");
     filter: blur(1px);
     -webkit-filter: blur(5px);
-    height: 100%;
+    height: 100vh;
     filter: brightness(60%);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 0;
+    margin: 0%;
 }
 .bg-logo-splashpage {
     position: absolute;
