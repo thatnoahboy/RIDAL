@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OTP Verification</title>
+  <link rel="stylesheet" href="./verifyotp.css">
+</head>
+<body>
+  <body class="center">
+    <div class="container">
+      <div class="form-header">
+        <h2>RIDAL <br>
+          <span>OTP verification </span>
+        </h2>
+      </div>
+      <div class="form-container center">
+        <form action="">
+          <div class="form-group-OTP center">
+            <input type="text" id="otp-input" placeholder="Enter OTP"  required><!--Add this line in your HTML where you want to display the OTP-->
+            <p id="otp-display"></p>
+            <button type="button" onclick="verifyOTP()"  class="otp-btn" id="verify-otp-btn">Verify</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- Modal for displaying messages -->
+    <div id="modal" class="modal">
+      <div class="modal-content">
+          <span class="close-button">×</span>
+          <p id="modal-message"></p>
+      </div>
+    </div>
+    <script src="signup.js"></script>
+  </body>
+</body>
+</html>

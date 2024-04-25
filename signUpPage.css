@@ -6,13 +6,24 @@ body {
   background-size: cover;
 }
 
-.container {
+/* .container {
   background-color: rgba(252, 250, 247, 0.9);
   padding: 20px;
   padding-left: 40px;
   border-radius: 0.5cm;
   margin-top: 100px;
   font-family: Arial, Helvetica, sans-serif;
+} */
+.container {
+  background-color: rgba(252, 250, 247, 1);
+  padding: 20px;
+  padding-left: 35px;
+  width: 332px;
+  height: 613px;
+  border-radius: 64px;
+  /* margin-top: 5px; */
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 0px 8px 8px 1px;
 }
 
 h2 {
@@ -27,27 +38,28 @@ span {
 }
 
 input {
-  width: 200px;
-  height: 30px;
-  border-radius: 28px;
+  width: 272px;
+  height: 34px;
+  border-radius: 9px;
   font-size: 16px;
   font-family: inherit;
   border: 0;
   padding: 0 24px;
   color: #222222;
   background: #ebebeb;
-  margin-top: 5px;
+  margin-top: 15px;
   font-size: small;
 }
 
 button {
   height: 40px;
-  width: 190px;
+  width: 150px;
   background-color: #ffd700;
   border-radius: 0.3cm;
-  margin-top: 5px;
+  margin-top: 32px;
   border-color: #ffd700;
   color: white;
+  
 }
 
 .otp-btn {
@@ -60,15 +72,18 @@ button {
   color: white;
 }
 
-.form-termsAndCondition p {
+.form-termsAndCondition {
   font-size: x-small;
+  margin-top: 14px;
+
 }
 
-.form-orSignUpWithGoogle p {
-  font-size: small;
-  font-weight: bold;
+.form-orSignUpWithGoogle {
+  font-size: 12px;
+  /* font-weight: bold; */
   /* border: solid; */
-  margin-top: 0px;
+  font-weight: 400;
+  margin-top: 12px;
 }
 
 a {
@@ -76,12 +91,12 @@ a {
 }
 
 .fa-brands {
-  margin-top: 5px;
+  margin-top: 12px;
 }
 
-.alreadyHaveAnAccount p {
+.alreadyHaveAnAccount {
   font-size: small;
-  margin-top: 5px;
+  margin-top: 7px;
 }
 
 .modal {
@@ -120,13 +135,12 @@ a {
   cursor: pointer;
 }
 
-@media screen and (min-width: 200px) and (max-width: 679px) {
+/* @media screen and (min-width: 200px) and (max-width: 679px) {
   .container {
-    background-color: rgba(252, 250, 247, 0.9);
-    padding: 20px;
-    padding-left: 40px;
-    width: 250px;
-    border-radius: 0.5cm;
+    background-color: rgba(252, 250, 247, 1);
+    width: 332px;
+    height: 613px;
+    border-radius: 64px;
     margin-top: 5px;
     font-family: Arial, Helvetica, sans-serif;
   }
@@ -136,9 +150,45 @@ a {
     width: 150px;
     background-color: #ffd700;
     border-radius: 0.3cm;
-    margin-top: 5px;
+    margin-top: 32px;
     border-color: #ffd700;
     color: white;
+    
   }
 
-}
+  input {
+    width: 272px;
+    height: 34px;
+    border-radius: 9px;
+    font-size: 16px;
+    font-family: inherit;
+    border: 0;
+    padding: 0 24px;
+    color: #222222;
+    background: #ebebeb;
+    margin-top: 15px;
+    font-size: small;
+  }
+
+  .form-termsAndCondition {
+    font-size: x-small;
+    margin-top: 14px;
+
+  }
+
+  .form-orSignUpWithGoogle {
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 12px;
+  }
+
+  .fa-brands {
+    margin-top: 12px;
+  }
+
+  .alreadyHaveAnAccount {
+    font-size: small;
+    margin-top: 7px;
+  }
+
+} */

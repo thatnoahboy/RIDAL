@@ -27,26 +27,21 @@
           <input type="password" minlength="6" name="password" id="password" placeholder="Password" required>
           <input type="password" name="verify-password" id="verify-password" minlength="6" placeholder="Verify Password" required>
         </div>
-        <div class="form-group-OTP center">
-          <input type="text" id="otp-input" placeholder="Enter OTP"  required style="display: none;"><!-- Add this line in your HTML where you want to display the OTP -->
+        <!-- <div class="form-group-OTP center">
+          <input type="text" id="otp-input" placeholder="Enter OTP"  required style="display: none;">
           <p id="otp-display"></p>
           <button type="button" onclick="verifyOTP()" style="display: none;" class="otp-btn" id="verify-otp-btn">Verify OTP</button>
-        </div>
+        </div> -->
         <div class="form-signup-btn center">
           <button type="submit" onclick="signUp()">Sign Up</button>
         </div>
       </form>
-      <div class="form-termsAndCondition">
-        <p class="center">By continuing you have agreed to our <a href="#">terms & conditions</a> and our privacy policies</p>
-      </div>
-      <div class="form-orSignUpWithGoogle center">
-        <p>or signup with google</p>
+      
+      <p class="form-termsAndCondition" style="text-align: center;">By continuing you have agreed to our <a href="#">terms & conditions</a><br> and our privacy policies</p>
+      <span class="form-orSignUpWithGoogle center">or Sign Up with google</span>
 
-        <a href="#"><i class="fa-brands fa-google"><svg xmlns="http://www.w3.org/2000/svg" style="height: 25px; width: 25px" viewBox="0 0 488 512"><path d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z"/></svg></i></a>
-      </div>
-      <div class="alreadyHaveAnAccount center">
-        <p>Already have an account?<a href="./signInPage.html"> Login</a></p>
-      </div>
+      <a href="#"><i class="fa-brands center fa-google"><svg xmlns="http://www.w3.org/2000/svg" style="height: 25px; width: 25px" viewBox="0 0 488 512"><path d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z"/></svg></i></a>
+      <p class="alreadyHaveAnAccount center">Already have an account?<a href="./signInPage.html"> Login</a></p>
     </div>
   </div>
   <!-- Modal for displaying messages -->
