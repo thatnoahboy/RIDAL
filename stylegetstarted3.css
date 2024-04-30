@@ -3,7 +3,16 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-image: url(./images/HD-wallpaper-honda-accord-2019-red-sedan-front-view-new-red-accord-japanese-cars-moving-car-honda.jpg);
+  background-repeat: no-repeat;
+  height: 100dvh;
+  /* width: 100dvw; */
+  background-size: fixed;
+  position: relative;
+  /* background-size: cover; */
   background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
 }
 
 
@@ -52,17 +61,18 @@ body {
   text-align: center;
 }
 
-.nav-dir-right {
+.nav-select-user {
   height: 30px;
   width: 100px;
   border: 2px solid black;
   border-radius: 0.5cm;
   color: #ffd700;
   background-color: black;
-  margin-top: 5px;
+  margin-top: 70px;
   margin-left: 70%;
-  margin-bottom: 5px;
+  /* margin-bottom: 5px; */
   font-size: small;
+  transition: 0.5s;
 
 }
 
@@ -83,10 +93,10 @@ body {
   background-color: rgba(128, 128, 128, 0.8);
   border-color: rgba(128, 128, 128, 0.8);
 }
-.nav-dir-right:hover {
+.nav-select-user:hover {
   background-color: rgba(128, 128, 128, 0.8);
   border-color: rgba(128, 128, 128, 0.8);
-  
+  scale: 1.05;
 }
 
 a>span {
@@ -124,16 +134,16 @@ a>span {
     text-align: center;
   }
 
-  .nav-dir-right {
-    height: 30px;
-    width: 100px;
-    border: 1px solid black;
-    border-bottom: 2px solid blac;
-    border-radius: 0.5cm;
-    color: #ffd700;
-    background-color: black;
-    margin-top: 5px;
-    margin-left: 60%;
-    margin-bottom: 5px;
+  .nav-select-user {
+      height: 30px;
+      width: 100px;
+      border: 2px solid black;
+      border-radius: 0.5cm;
+      color: #ffd700;
+      background-color: black;
+      margin-top: 70px;
+      margin-left: 70%;
+      /* margin-bottom: 5px; */
+      font-size: small;
   }
 }

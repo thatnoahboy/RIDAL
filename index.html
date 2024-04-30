@@ -9,10 +9,18 @@
                        <body>
                         <div class="bg-image-splashpage"></div>
                             <div class="bg-logo-splashpage">
-                        <a href="getStartedPage1.html">
+                                
                     <h1><img src="images/Frame 220.png" alt="logo"></h1>
-                </a>
+                    <svg viewBox="25 25 50 50">
+                        <circle r="20" cy="50" cx="50"></circle>
+                      </svg>
             </div>
-
+            <script>
+                const loadingBar = document.querySelector('svg');
+                loadingBar.style.width = '10%';
+                setTimeout(() => {
+                    window.location.href = 'getStartedPage1.html';
+                }, 1500);
+                </script>
 </body>
 </html>

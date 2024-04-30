@@ -1,3 +1,8 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
 .container {
 
     background-image: url(bg-img.jpg);
@@ -12,6 +17,8 @@
     align-items: center;
     flex-basis: 8000px;
     flex: 8000px;
+    margin: 0%;
+    padding: 0%;
 }
 
 .passenger {
@@ -30,6 +37,7 @@
     color: #ffd700;
     position: absolute;
     margin: 3px; 
+    margin-top: 0px; 
     
 }
 
@@ -47,7 +55,8 @@
     justify-content: flex-start;
     flex-direction: column;
     position: absolute;
-    margin: 3px;
+    margin-top: 3px;
+    margin-bottom: 0px;
 }
 
 
