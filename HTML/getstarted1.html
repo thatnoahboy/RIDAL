@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Get Started</title>
-  <link rel="stylesheet" href="./stylegetstarted.css">
+  <link rel="stylesheet" href="../CSS/stylegetstarted.css">
 </head>
 <body class="center">
   <div class="container center">
@@ -15,12 +15,20 @@
       <div class="nav-sec first
       "></div>
       <div class="nav-sec
-      "></div>
+      " onclick="redirectToPage()"></div>
       <div class="nav-sec
-      "></div>
+      " onclick="redirectToPage3()"></div>
     </div>
-    <a href="./getStartedPage2.html" class="nav-dir-right center">></a>
+    <a onclick="redirectToPage()" class="nav-dir-right center">></a>
   </div>
+  <script>
+    function redirectToPage() {
+    window.location.href = "./getstarted2.html"
+    }
+    function redirectToPage3() {
+    window.location.href = "./getstarted3.html"
+    }
+  </script>
 </body>
 </html>
 <!-- this should be replaced with the new get sarted page  -->

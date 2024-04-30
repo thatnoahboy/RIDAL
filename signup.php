@@ -34,7 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Insert user data into the database
     $sql = "INSERT INTO users (firstName, lastName, email, phone, password) VALUES ('$firstName', '$lastName', '$email', '$phone', '$passwordHash')";
     if (mysqli_query($conn, $sql)) {
-      header("Location: signInPage.html");
+      header("Location: signin.html");
       exit;
     } else {
         echo "Error: " . $sql . "<br>" . mysqli_error($conn);

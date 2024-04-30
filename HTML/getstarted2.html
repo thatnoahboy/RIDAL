@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Get Started</title><link rel="stylesheet" href="./stylegetstarted2.css">
+  <title>Get Started</title>
+  <link rel="stylesheet" href="../CSS/stylegetstarted2.css">
 </head>
 <body class="center">
   <div class="container center">
@@ -12,13 +13,21 @@
     <p class="wel-ridal-small-txt center">Discover Effortless Travel with Ridal: Your Reliable Partner for Convenient Transportation Anytime, Anywhere!</p>
     <div class="wel-ridal-nav">
       <div class="nav-sec
-      "></div>
+      " onclick="redirectToPage()"></div>
       <div class="nav-sec first
       "></div>
       <div class="nav-sec
-      "></div>
+      " onclick="redirectToPage3()"></div>
     </div>
-    <a href="./getStartedPage3.html" class="nav-dir-right center">></a><a href="./getStartedPage1.html" class="nav-dir-left center"><</a>
+    <a onclick="redirectToPage3()" class="nav-dir-right center">></a><a onclick="redirectToPage()" class="nav-dir-left center"><</a>
   </div>
+  <script>
+    function redirectToPage() {
+    window.location.href = "./getstarted1.html"
+    }
+    function redirectToPage3() {
+    window.location.href = "./getstarted3.html"
+    }
+  </script>
 </body>
 </html>

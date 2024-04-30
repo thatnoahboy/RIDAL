@@ -2,17 +2,18 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url(./images/istockphoto-1387843135-612x612.jpg);
+  background-image: url(../images/pexels-adrien-olichon-2537603.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;
   width: 100%;
+  overflow: hidden;
 }
 
 
 .container {
-  height: 310px;
+  height: 315px;
   width: 400px;
   padding: 20px;
   /* padding-left: 35px; */
@@ -54,6 +55,9 @@ body {
 
 .wel-ridal-small-txt {
   text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .nav-dir-right {
@@ -61,23 +65,18 @@ body {
   width: 30px;
   border: 2px solid black;
   border-radius: 100%;
-  color: #ffd700;
+  color: white;
   background-color: black;
   margin-top: 5px;
   margin-left: 80%;
   margin-bottom: 5px;
+  cursor: pointer;
+  color: #ffd700;
 }
 
-.nav-dir-left {
-  height: 30px;
-  width: 30px;
-  border: 2px solid black;
-  border-radius: 100%;
-  color: #ffd700;
-  background-color: black;
-  margin-top: -39px;
-  margin-right: 80%;
-  margin-bottom: 5px;
+.nav-dir-right:hover {
+  background-color: rgb(80, 79, 79);
+  border-color: rgb(80, 79, 79);
 }
 
 @media screen and (min-width: 200px) and (max-width: 679px) {
@@ -123,10 +122,6 @@ body {
     margin-bottom: 5px;
   }
 
-  .nav-dir-left:hover {
-    background-color: rgba(128, 128, 128, 0.8);
-    border-color: rgba(128, 128, 128, 0.8);
-  }
   .nav-dir-right:hover {
     background-color: rgba(128, 128, 128, 0.8);
     border-color: rgba(128, 128, 128, 0.8);

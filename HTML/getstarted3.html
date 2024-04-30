@@ -4,18 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Get Started</title>
-  <link rel="stylesheet" href="./stylegetstarted3.css">
+  <link rel="stylesheet" href="../CSS/stylegetstarted3.css">
 </head>
 <body class="center">
   <div class="container center">
-    <!-- <p class="wel-ridal">Welcome to Ridal</p> -->
+    <p class="wel-ridal">Welcome to Ridal</p>
     <P class="wel-ridal-body center"> Simplifying Your Journey, One Tap Away</P>
     <p class="wel-ridal-small-txt center">Ridal: Navigate Anywhere Effortlessly with Our Reliable Transportation App Today!</p>
     <div class="wel-ridal-nav">
       <div class="nav-sec
-      "></div>
+      " onclick="redirectToPage1()"></div>
       <div class="nav-sec
-      "></div>
+      " onclick="redirectToPrev()"></div>
       <div class="nav-sec first
       "></div>
     </div>
@@ -24,11 +24,14 @@
 
   <script>
     function redirectToPage() {
-    window.location.href = "select-user.html"
+    window.location.href = "./select-user.html"
     }
 
     function redirectToPrev() {
-    window.location.href = "getStartedPage2.html"
+    window.location.href = "getstarted2.html"
+    }
+    function redirectToPage1() {
+    window.location.href = "./getstarted1.html"
     }
   </script>
 </body>
