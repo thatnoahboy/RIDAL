@@ -2,17 +2,20 @@
 
 Body {
   background-image: url(./images/WhatsApp\ Image\ 2024-03-18\ at\ 10.37.48\ PM.jpeg);
-
+  background-position: center;
+  /* background-repeat: no-repeat; */
   background-size: cover;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
-  background-color: rgba(252, 250, 247, 0.9);
+  background-color: rgb(252, 250, 247);
   padding: 20px;
+  width: 332px;
+  height: 342px;
   padding-left: 25px;
-  border-radius: 0.5cm;
-  margin-top: 250px;
+  border-radius: 64px;
+  /* margin-top: 250px; */
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -29,16 +32,16 @@ span {
 }
 
 input {
-  width: 200px;
-  height: 30px;
-  border-radius: 28px;
+  width: 272px;
+  height: 34px;
+  border-radius: 9px;
   font-size: 16px;
   font-family: inherit;
   border: 0;
   padding: 0 24px;
   color: #222222;
   background: #ebebeb;
-  margin-top: 5px;
+  margin-top: 15px;
   font-size: small;
 }
 
@@ -47,7 +50,7 @@ button {
   width: 150px;
   background-color: #ffd700;
   border-radius: 0.3cm;
-  margin-top: 5px;
+  margin-top: 29px;
   border-color: #ffd700;
   color: white;
 }
@@ -55,6 +58,7 @@ button {
 a {
   color: #ffd700;
   font-size: small;
+  margin-top: 8px;
 }
 
 p {
@@ -98,12 +102,20 @@ p {
 
 @media screen and (min-width: 200px) and (max-width: 679px) {
   .container {
-    background-color: rgba(252, 250, 247, 0.9);
+    background-color: rgb(252, 250, 247);
     padding: 20px;
+    width: 332px;
+    height: 342px;
     padding-left: 25px;
-    width: 250px;
-    border-radius: 0.5cm;
-    margin-top: 155px;
+    border-radius: 64px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  Body {
+    background-image: url(./images/WhatsApp\ Image\ 2024-03-18\ at\ 10.37.48\ PM.jpeg);
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
   }
 

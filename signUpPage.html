@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head> 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sign Up Page</title>
@@ -14,10 +14,10 @@
       </h2>
     </div>
     <div class="form-container">
-      <form id="signup-form">
+      <form id="signup-form" action="signup.php" method="post">
         <div class="form-group-name">
-          <input type="text" name="firstName" id="first-name" placeholder="First name" required>
-          <input type="text" name="lastName" id="last-name" placeholder="Last name" required>
+          <input type="text" name="firstName" id="firstName" placeholder="First name" required>
+          <input type="text" name="lastName" id="lastName" placeholder="Last name" required>
         </div>
         <div class="form-group-contact">
           <input type="email" name="email" id="email" placeholder="Email: noreply@ridal.com" required>
@@ -25,13 +25,8 @@
         </div>
         <div class="form-goup-password">
           <input type="password" minlength="6" name="password" id="password" placeholder="Password" required>
-          <input type="password" name="verify-password" id="verify-password" minlength="6" placeholder="Verify Password" required>
+          <input type="password" name="verifyPassword" id="verifyPassword" minlength="6" placeholder="Verify Password" required>
         </div>
-        <!-- <div class="form-group-OTP center">
-          <input type="text" id="otp-input" placeholder="Enter OTP"  required style="display: none;">
-          <p id="otp-display"></p>
-          <button type="button" onclick="verifyOTP()" style="display: none;" class="otp-btn" id="verify-otp-btn">Verify OTP</button>
-        </div> -->
         <div class="form-signup-btn center">
           <button type="submit">Sign Up</button>
         </div>
@@ -51,19 +46,6 @@
         <p id="modal-message"></p>
     </div>
   </div>
-
-  <script src="signup.js"></script>
-  <!-- <script>
-    document.querySelector('form').addEventListener('submit', function(event) {
-     var requiredInputs = document.querySelectorAll('input[required]');
-     for (var i = 0; i < requiredInputs.length; i++) {
-     if (requiredInputs[i].value === '') {
-      event.preventDefault(); // Prevent form submission
-      // You can also display an error message or highlight the empty fields
-      break;
-       }
-     }
-    });
-  </script> -->
+ 
 </body>
 </html>

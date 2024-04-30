@@ -1,8 +1,9 @@
 @import url(utility.css);
 
 Body {
-  background-image: url(./images/WhatsApp\ Image\ 2024-04-25\ at\ 12.18.57\ PM.jpeg);
+  background-image: url(./bg-img.jpg);
   background-size: cover;
+  background-position: center;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -49,7 +50,7 @@ button {
   width: 150px;
   background-color: #ffd700;
   border-radius: 0.3cm;
-  margin-top: 5px;
+  margin-top: 32px;
   border-color: #ffd700;
   color: white;
 }
@@ -99,6 +100,11 @@ p {
 }
 
 @media screen and (min-width: 200px) and (max-width: 679px) {
+  body {
+    background-image: url(./images/WhatsApp\ Image\ 2024-04-25\ at\ 12.18.57\ PM.jpeg);
+    background-position: center;
+    
+  }
   .container {
     background-color: rgb(252, 250, 247);
     padding: 20px;

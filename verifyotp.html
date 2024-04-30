@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="./verifyotp.css">
 </head>
 <body>
-  <body class="center">
+  <body class="center" onload="showOTP()">
     <div class="container">
       <div class="form-header">
         <h2>RIDAL <br>
@@ -17,23 +17,25 @@
       <div class="form-container center">
         <form action="">
           <div class="form-group-OTP center">
-            <div class="inputs"> <input id="input1" type="text" maxlength="1"> <input id="input2" type="text" maxlength="1">
-              <input id="input3" type="text" maxlength="1"> <input id="input4" type="text" maxlength="1"> </div> 
-            <!-- <input type="text" id="otp-input" placeholder="Enter OTP"  required>Add this line in your HTML where you want to display the OTP -->
-            <p id="otp-display"></p>
-            <button type="button" class="otp-btn" id="verify-otp-btn">Verify</button>
+            <div class="inputs"> <input id="input1" type="text" maxlength="1" onkeyup="moveToNext(this, 'input2')"> <input id="input2" type="text" maxlength="1" onkeyup="moveToNext(this, 'input3')">
+              <input id="input3" type="text" maxlength="1" onkeyup="moveToNext(this, 'input4')"> <input id="input4" type="text" maxlength="1"> </div> 
+          
+            <button type="button" class="otp-btn" id="verify-otp-btn" onclick="verifyOTP()">Verify</button>
           </div>
         </form>
       </div>
     </div>
-    <!-- Modal for displaying messages -->
-    <div id="modal" class="modal">
-      <div class="modal-content">
-          <span class="close-button">×</span>
-          <p id="modal-message"></p>
-      </div>
+    <h2>Your OTP:</h2>
+    <p id="otp"></p>
     </div>
     <script src="signup.js"></script>
+    <script>
+      function moveToNext(currentInput, nextInputId) {
+        if (currentInput.value.length === 1) {
+          document.getElementById(nextInputId).focus();
+        }
+      }
+    </script>
   </body>
 </body>
 </html>
