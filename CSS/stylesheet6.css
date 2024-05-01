@@ -7,7 +7,7 @@ body, html {
     box-sizing: border-box;
 }
 .bg-image-splashpage {
-    background-image: url("bg-img.jpg");
+    background-image: url("/images/bg-img.jpg");
     filter: blur(1px);
     -webkit-filter: blur(5px);
     height: 100%;

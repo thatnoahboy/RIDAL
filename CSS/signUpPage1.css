@@ -2,6 +2,7 @@
 
 body {
   background-image: url(./images/WhatsApp\ Image\ 2024-03-18\ at\ 10.37.48\ PM.jpeg);
+  background-image: url(/images/WhatsApp\ Image\ 2024-03-18\ at\ 10.37.48\ PM.jpeg);
 
   background-size: cover;
 }
