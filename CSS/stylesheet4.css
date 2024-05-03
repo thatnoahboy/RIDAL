@@ -24,27 +24,28 @@ body, html {
 .passenger {
 
     /* width: 1000px; */
-    width: 1000px;
-    height: 49%;
+    width: 100%;
+    height: 49.5%;
     border-bottom-left-radius: 64px;
     border-bottom-right-radius: 64px;
     background-color: white;
     justify-content: start;
-    margin: 8px 0px;
+    /* margin: 8px 0px; */
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     color: #ffd700;
     position: absolute;
-    margin: 3px; 
+    margin: 1.5px; 
     margin-top: 0px; 
+    padding: 0%;
     
 }
 
 .driver {
 
-    width: 1000px;
-    height: 49%;
+    width: 100%;
+    height: 49.5%;
     border-top-left-radius: 64px;
     border-top-right-radius: 64px;
     background-color: #ffd700;
@@ -55,7 +56,7 @@ body, html {
     justify-content: flex-start;
     flex-direction: column;
     position: absolute;
-    margin-top: 3px;
+    margin-top: 1.5px;
     margin-bottom: 0px;
 }
 
@@ -78,6 +79,12 @@ body, html {
     transition: 1.8678346585455885s;
 }
 
+.pass-bttn {
+    margin: 0%;
+    bottom: 0%;
+    position: flex-end;
+}
+
 .expanded-content {
     display: none;
     position: fixed;
@@ -94,9 +101,130 @@ body, html {
     display: block;
 }
 
+.navbar {
+    height: 15%;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    position: absolute;
+    top: -0.2%;
+    justify-content: flex-end;
+    z-index: 1;
+    /* margin: 8px 0px; */
+    display: flex;
+
+    margin-top: 0px;
+    transition: bottom 3s;
+    padding-right: 0%;
+    /* margin: auto; */
+ }
+
+ .home, .about, .services {
+    margin: 30px;
+    margin-top: 3.1%;
+    /* margin-right: 10%; */
+ }
+
+ .signup {
+    color: white;
+    height: 27px;
+    width: 100px;
+    background-color: #ffd700;
+    padding: 1%;
+    margin-top: 2.1%;
+    border-radius: 10px;
+    margin: 30px;
+    text-align: center;
+ }
+
+ .login {
+    color: white;
+    height: 27px;
+    width: 100px;
+    background-color: #ffd700;
+    padding: 1%;
+    margin-top: 2.1%;
+    border-radius: 10px;
+    margin: 30px;
+    text-align: center;
+    margin-right: 1px;
+ }
+
+ .home {
+    transition: all .5s;
+ }
+ .about {
+    transition: all .5s;
+ }
+ .login {
+    transition: all .5s;
+ }
+ .services {
+    transition: all .5s;
+ }
+ .signup {
+    transition: all .5s;
+ }
+ .about {
+    transition: all .5s;
+ }
+ 
+ .signup:hover {
+    transform: scale(1.1);
+    color: black;
+ }
+
+ .home:hover {
+    transform: scale(1.1);
+    color: #ffd700;
+ }
+
+ .about:hover {
+    transform: scale(1.1);
+    color: #ffd700;
+ }
+
+ .login:hover {
+    transform: scale(1.1);
+    color: #ffd700;
+ }
+
+ .services:hover {
+    transform: scale(1.1);
+    color: #ffd700;
+ }
+
+
+ .logo {
+     height: 10%;
+     width: 10%;
+     margin-right: 85%;
+     margin-top: 3%;
+     position: fixed;
+     /* margin-bottom: 50%; */
+ }
+
 @media only screen and (max-width: 768px) {
     .passenger, .driver {
         width: 90%;
         max-width: 375px;
     }
 }
+
+/* .container {
+
+    background-image: url(/images/bg-img.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    flex-flow: column nowrap;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-basis: 8000px;
+    flex: 8000px;
+    margin: 0%;
+    padding: 0%;
+} */
